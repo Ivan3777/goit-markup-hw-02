@@ -93,6 +93,10 @@ body {
 
 /* section benefits */
 
+.slogan {
+  visibility: hidden;
+}
+
 .subtitle {
   color: var(--link-color);
   font-family: 'Roboto';
