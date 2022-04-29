@@ -9,6 +9,9 @@
   --hero-background-color: #2f303a;
   --hero-text-color: #ffffff;
   --background-team-color: #f5f4fa;
+  --background-footer: #2f303a;
+  --footer-studio: white;
+  --footer-contacts: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -22,8 +25,6 @@ body {
 .logo {
   color: var(--color-hover);
   font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -46,6 +47,7 @@ body {
 
 .nav-link {
   color: var(--link-color);
+  text-decoration: none;
 }
 
 .nav-link:hover,
@@ -56,6 +58,7 @@ body {
 .mail-header,
 .phone-header {
   color: var(--color-text);
+  text-decoration: none;
 }
 
 .mail-header:hover,
@@ -78,8 +81,6 @@ body {
   color: var(--hero-text-color);
   text-align: center;
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
 }
@@ -87,6 +88,7 @@ body {
 .button-title-hero {
   background-color: var(--color-hover);
   color: var(--hero-text-color);
+  cursor: pointer;
 }
 
 /* section benefits */
@@ -94,8 +96,6 @@ body {
 .subtitle {
   color: var(--link-color);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -105,8 +105,6 @@ body {
 .text-subtitlt {
   color: var(--color-text);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -117,8 +115,6 @@ body {
 .subtitle-img {
   color: var(--link-color);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -134,8 +130,6 @@ body {
 .subtitle-team {
   color: var(--color-h2-h3);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -145,8 +139,6 @@ body {
 .subtitle-name {
   color: var(--color-h2-h3);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -156,10 +148,63 @@ body {
 .text-team {
   color: var(--color-text);
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+/* footer */
+
+.footer {
+  background-color: var(--background-footer);
+}
+
+.logo {
+  color: var(--color-hover);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-white {
+  color: var(--footer-studio);
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.address {
+  color: var(--hero-text-color);
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.mail-footer,
+.phone-footer {
+  color: var(--footer-contacts);
+}
+
+.mail-footer,
+.phone-footer {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.mail-footer:hover,
+.mail-footer:focus {
+  color: var(--color-hover);
+}
+
+.phone-footer:hover,
+.phone-footer:focus {
+  color: var(--color-hover);
 }
