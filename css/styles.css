@@ -8,6 +8,7 @@
   --studio-color: black;
   --hero-background-color: #2f303a;
   --hero-text-color: #ffffff;
+  --background-team-color: #f5f4fa;
 }
 
 body {
@@ -119,11 +120,46 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 /* section team */
 
+.section-team {
+  background-color: var(--background-team-color);
+}
 
+.subtitle-team {
+  color: var(--color-h2-h3);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.subtitle-name {
+  color: var(--color-h2-h3);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.text-team {
+  color: var(--color-text);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
