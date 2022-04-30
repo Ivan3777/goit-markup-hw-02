@@ -229,5 +229,10 @@ body {
 
 .btn:hover,
 .btn:focus {
-  background-color: var(--color-hover)
+  background-color: var(--color-hover);
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--hero-text-color);
 }
