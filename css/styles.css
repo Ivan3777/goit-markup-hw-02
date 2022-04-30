@@ -127,6 +127,10 @@ body {
 
 /* section team */
 
+.card {
+  background-color: var(--hero-text-color);
+}
+
 .section-team {
   background-color: var(--background-team-color);
 }
