@@ -37,7 +37,9 @@ body {
 .list-desk,
 .list-gallery,
 .list-team,
-.footer-contacts-list {
+.footer-contacts-list,
+.list-button,
+.list-card {
   list-style: none;
 }
 
@@ -216,4 +218,16 @@ body {
 .phone-footer:hover,
 .phone-footer:focus {
   color: var(--color-hover);
+}
+
+/* portfolio */
+/* button */
+
+.btn {
+  background-color: var(--background-team-color);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--color-hover)
 }
