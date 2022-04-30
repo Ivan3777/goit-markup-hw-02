@@ -225,6 +225,7 @@ body {
 
 .btn {
   background-color: var(--background-team-color);
+  cursor: pointer;
 }
 
 .btn:hover,
