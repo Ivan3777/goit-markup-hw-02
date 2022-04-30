@@ -18,6 +18,7 @@ body {
   background-color: var(--background-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
+  color: var(--color-h2-h3);
 }
 
 /* header */
@@ -26,7 +27,7 @@ body {
   color: var(--color-hover);
   font-family: Raleway, sans-serif;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -49,6 +50,10 @@ body {
 
 .nav-link {
   color: var(--link-color);
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -60,6 +65,10 @@ body {
 .mail-header,
 .phone-header {
   color: var(--color-text);
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -90,6 +99,13 @@ body {
 .button-title-hero {
   background-color: var(--color-hover);
   color: var(--hero-text-color);
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   cursor: pointer;
 }
 
@@ -199,10 +215,6 @@ body {
 .mail-footer,
 .phone-footer {
   color: var(--footer-contacts);
-}
-
-.mail-footer,
-.phone-footer {
   font-family: 'Roboto';
   font-size: 14px;
   line-height: 1.71;
@@ -221,11 +233,18 @@ body {
 }
 
 /* portfolio */
+
 /* button */
 
 .btn {
   background-color: var(--background-team-color);
   cursor: pointer;
+  color: var(--color-h2-h3);
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .btn:hover,
@@ -236,4 +255,22 @@ body {
 .btn:hover,
 .btn:focus {
   color: var(--hero-text-color);
+}
+
+/* text */
+
+.text-list {
+  color: var(--color-text);
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.subtitle-card {
+  color: var(--color-h2-h3);
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
