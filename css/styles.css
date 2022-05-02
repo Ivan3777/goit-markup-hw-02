@@ -88,11 +88,13 @@ body {
 
 .section-hero {
   background-color: var(--hero-background-color);
+  text-align: center;
 }
 
 .hero-title {
   color: var(--hero-text-color);
   text-transform: uppercase;
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
 }
@@ -100,11 +102,9 @@ body {
 .button-title-hero {
   background-color: var(--color-hover);
   color: var(--hero-text-color);
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
 }
@@ -117,6 +117,7 @@ body {
 
 .subtitle {
   color: var(--link-color);
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -134,6 +135,7 @@ body {
 
 .subtitle-img {
   color: var(--link-color);
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -230,6 +232,7 @@ body {
   cursor: pointer;
   color: var(--color-h2-h3);
   font-family: inherit;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -250,7 +253,6 @@ body {
 
 .text-list {
   color: var(--color-text);
-  font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
